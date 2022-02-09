@@ -17,7 +17,7 @@ public class App {
 			Controller.addNewDog(dogNames[i]);
 		}
 
-		// outputn ...
+		// output ...
 		
 		output("--------- Hunde fragen Katzen :-( ----------");
 		output(Controller.getSomeRandomDog().askACat());
